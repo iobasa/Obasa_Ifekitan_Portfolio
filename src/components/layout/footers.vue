@@ -8,7 +8,7 @@
 						
 <a href="https://www.linkedin.com/in/ife-obasa-567593191/">linkedIn</a>
 
-<a href="https://docs.google.com/document/d/1bMF0LgOeFgjARFRYWB6e6nd6DAhNZYgiuHru-zzwgW0/edit?usp=sharing">resume</a>
+<a href="https://drive.google.com/file/d/1qWzA_w_564sAP7bIIX7dIUMWMjyp-lQ1/view?usp=sharing">resume</a>
         </div>
     </div>
 </template>
