@@ -23,6 +23,7 @@
     <b-col>
       <section>
         <h3>Project description</h3>
+      <p>Using Node, Express and Vue with socket.io to create an interactive chat application. Design an engaging skin for the application using HTML/CSS (and SASS); add transitions/interesting micro transactions using a combination of JS and CSS (you can use something like Greensock).</p>
       </section>
       
     </b-col>

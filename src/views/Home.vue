@@ -4,23 +4,17 @@
 
     <li><a href="/roku" class="sigilContainer roku" data-offset="0">ROKU</a></li>
 
-     <li><a href="/texty" class="sigilContainer texty" data-offset="1">TEXTY</a></li>
+  <li><a href="/musicmixer" class="sigilContainer m" data-offset="1">MUSICMIXER</a></li>
 
-  <li><a href="/musicmixer" class="sigilContainer m" data-offset="2">MUSICMIXER</a></li>
+  <li><a href="/hiv" class="sigilContainer hiv" data-offset="2">MEET HIV</a></li>
 
-  <li><a href="/hiv" class="sigilContainer hiv" data-offset="3">MEET HIV</a></li>
+  <li><a href="/pizza" class="sigilContainer pizza" data-offset="3">PIZZA<br>INFOGRAPHIC</a></li>
 
-  <li><a href="/pizza" class="sigilContainer pizza" data-offset="4">PIZZA<br>INFOGRAPHIC</a></li>
+ <li><a href="/traa" class="sigilContainer traa" data-offset="4">TRAA</a></li>
 
- <li><a href="/traa" class="sigilContainer traa" data-offset="5">TRAA</a></li>
+ <li><a href="/anastasia" class="sigilContainer ana" data-offset="5">AESTHETIC<br>ANASTASIA</a></li>
 
-<li><a href="/drumset" class="sigilContainer drum" data-offset="6">DRUMSET</a></li>
-
-<li><a href="/valentines" class="sigilContainer val" data-offset="7">VALENTINE'S<br>INFOGRAPHIC</a></li>
-
- <li><a href="/anastasia" class="sigilContainer ana" data-offset="8">AESTHETIC<br>ANASTASIA</a></li>
-
- <li><a href="/mangochat" class="sigilContainer mango" data-offset="9">MANGOCHAT</a></li>
+ <li><a href="/mangochat" class="sigilContainer mango" data-offset="6">MANGOCHAT</a></li>
 </section>
 
 <section class="screen">
@@ -32,13 +26,10 @@
  <section id="imageContainer">
 <div id="houseImages" style="right: 0;"> <!-- add in all of the images to make a scrolling "banner" -->
 	<img src="@/assets/roku.jpg" alt="">
-    <img src="@/assets/texty.jpg" alt="">
     <img src="@/assets/musicmixer.jpg" alt="">
     <img src="@/assets/hiv.jpg" alt="">
     <img src="@/assets/interactive.jpg" alt="">
     <img src="@/assets/traa.jpg" alt="">
-    <img src="@/assets/drumset.jpg" alt="">
-    <img src="@/assets/valentine.jpg" alt="">
     <img src="@/assets/anastasia.jpg" alt="">
     <img src="@/assets/mangochat.jpg" alt="">
 </div>

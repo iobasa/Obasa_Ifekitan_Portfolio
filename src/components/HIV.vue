@@ -5,12 +5,31 @@
     <b-col>
       <section class="title">
       <h1 >Meet HIV</h1>
-      <h2>Campaign for HIV</h2>
+      <h2>Campaign for educating Gen-Z on HIV</h2>
       </section>
     </b-col>
 
     <b-col>
-      <b-img center src="@/assets/hiv.jpg" fluid alt="Fluid image"></b-img>
+      <h4>Github link: <a href="https://github.com/iobasa/Al-Osman_Azores_Dronfield_Kaur_Obasa_FIP.git">Meet HIV</a></h4>
+    </b-col>
+
+    <b-col>
+      <section>
+       <h4>Group Project</h4>
+       <p>Designer: Nour Al-Osman</p>
+        <p>Illustrator: Taylor Dronfield</p>
+         <p>Motion Designer: Prahbjot Kaur</p>
+          <p>Project Manager/Front-End Developer: Mikka Azores</p>
+       <p>Back-End Developer: Ifekitan Obasa</p>
+      </section>
+      
+    </b-col>
+
+    <b-col>
+        <b-embed type="video" controls>
+    <source src="@/assets/hiv.webm" type="video/webm">
+    <source src="@/assets/hiv.mp4" type="video/mp4">
+  </b-embed>
     </b-col>
 
     <b-col>
@@ -37,13 +56,6 @@
       
     </b-col>
 
-    <b-col>
-      <b-row cols="1" cols-sm="1" cols-md="3" cols-lg="3">
-    <b-col><b-img center src="@/assets/myths-hiv.png" fluid alt="Fluid image"></b-img></b-col>
-    <b-col><b-img center src="@/assets/living-hiv.png" fluid alt="Fluid image"></b-img></b-col>
-    <b-col><b-img center src="@/assets/video-hiv.png" fluid alt="Fluid image"></b-img></b-col>
-  </b-row>
-    </b-col>
   </b-row>
 </b-container>  
     </div>
