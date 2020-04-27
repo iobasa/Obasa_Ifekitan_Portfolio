@@ -70,6 +70,7 @@
 </script>
 
 <style lang="scss" scoped>
+
      .title{
      font-size: 1rem;
     font-weight: 700;
@@ -77,32 +78,126 @@
   }
 
   h1{
-    font-size: 6rem;
-    font-weight: 700;
+    color: #151E3F;
+    font-size: 3.3rem;
+    font-weight: 1000;
     font-style: italic;
     text-align: center;
-    text-shadow: 4px 4px #D76C6E;
+    text-shadow: 4px 4px #E7C9AE;
   }
 
   h2{
-    font-size: 2.5rem;
+    
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 4px 4px #e8d7d5;
+  }
+
+   h3{
+    font-size: 2rem;
+    font-weight: 1000;
+    text-align: center;
+    text-shadow: 4px 4px #e8d7d5;
+  }
+
+  h4{
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 1000;
+    text-align: center;
+    text-shadow: 4px 4px #e8d7d5;
+  }
+
+  b{
+    color: #0C0F33;
+    font-weight: 1000;
+  }
+
+  p{
+    color:#3F3D54;
+  }
+
+    a{
+    color: #0C0F33;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: left;
+  }
+
+  a:hover{
+    border-bottom: 2px solid #DC9E82 ;
+    text-decoration: none;
+    color: #0C0F33;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: left;
+  }
+
+
+@media screen and (min-width: 64em) {
+     .title{
+     font-size: 1rem;
     font-weight: 700;
+    text-shadow: 4px 4px #e8d7d5;
+  }
+
+  h1{
+    color: #151E3F;
+    font-size: 6rem;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 4px 4px #E7C9AE;
+  }
+
+  h2{
+    
+    font-size: 2.5rem;
+    font-weight: 800;
     text-align: center;
     text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 1000;
     text-align: center;
     text-shadow: 4px 4px #e8d7d5;
   }
 
   h4{
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 1000;
     text-align: center;
     text-shadow: 4px 4px #e8d7d5;
   }
+
+  b{
+    color: #0C0F33;
+    font-weight: 1000;
+  }
+
+  p{
+    color:#3F3D54;
+  }
+
+    a{
+    color: #0C0F33;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: left;
+  }
+
+  a:hover{
+    border-bottom: 2px solid #DC9E82 ;
+    text-decoration: none;
+    color: #0C0F33;
+    font-size: 1.3rem;
+    font-weight: 800;
+    text-align: left;
+  }
+
+}
 </style>

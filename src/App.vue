@@ -31,7 +31,7 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: "poppins", sans-serif;
+  font-family: "raleway", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
@@ -49,4 +49,42 @@ export default {
     }
   }
 }
+
+  h1{
+    font-size: 6rem;
+    font-weight: 1000;
+    font-style: italic;
+    text-align: center;
+    text-shadow: 4px 4px #E7C9AE;
+  }
+
+  h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    text-shadow: 4px 4px #e8d7d5;
+  }
+
+   h3{
+    font-size: 3rem;
+    font-weight: 1000;
+    text-align: center;
+    text-shadow: 4px 4px #e8d7d5;
+  }
+
+  h4{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 1000;
+    text-align: center;
+    text-shadow: 4px 4px #e8d7d5;
+  }
+
+  p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: left;
+  }
+
+
 </style>

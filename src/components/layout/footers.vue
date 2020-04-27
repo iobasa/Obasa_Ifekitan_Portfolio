@@ -20,6 +20,7 @@
 </script>
 
 <style lang="scss" scoped>
+
 .social-media {
 	order: 1;
 	display: flex;
@@ -30,18 +31,40 @@
 	}
   
   .social-media a {
-	font-family: "Raleway", sans-serif;
-	font-weight: 500;
-	font-style: black;
-	color: black;
+	font-family: 'raleway', sans-serif;
+    font-weight: 1000;
+	color: #0C0F33;
+	padding: 5px;
+	font-size: 1.05rem;
+	text-align: center;
+	text-decoration: none; }
+
+	.social-media :hover {
+    color: #C16E70!important;
+  }
+
+@media screen and (min-width: 64em) {
+.social-media {
+	order: 1;
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	align-content: center;
+	justify-content: flex-end; 
+	}
+  
+  .social-media a {
+	font-family: 'raleway', sans-serif;
+    font-weight: 1000;
+	color: #0C0F33;
 	padding: 15px;
 	font-size: 1.5rem;
 	text-align: center;
 	text-decoration: none; }
 
 	.social-media :hover {
-    color: black!important;
-    text-shadow: 2px 2px #D76C6E;
+    color: #C16E70!important;
   }
+}
 
 </style>
