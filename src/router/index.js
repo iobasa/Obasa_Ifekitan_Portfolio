@@ -67,9 +67,9 @@ const routes = [
     component: () => import('../components/HIV.vue')
   },
   {
-    path: '/drumset',
-    name: 'Drumset',
-    component: () => import('../components/Drumset.vue')
+    path: '/harry',
+    name: 'Harry',
+    component: () => import('../components/Harry.vue')
   },
   {
     path: '/texty',

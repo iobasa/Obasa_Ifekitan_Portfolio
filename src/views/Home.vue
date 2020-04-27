@@ -2,19 +2,21 @@
     <div class="masonry">
         <section class="bv-example-row">
 
-    <li><a href="/roku" class="sigilContainer roku" data-offset="0">ROKU</a></li>
+    <li><a href="/roku" class="sigilContainer roku" data-offset="0">Roku Flashback</a></li>
 
-  <li><a href="/musicmixer" class="sigilContainer m" data-offset="1">MUSICMIXER</a></li>
+    <li><a href="/harry" class="sigilContainer harry" data-offset="1">Harry &amp; Harry</a></li>
 
-  <li><a href="/hiv" class="sigilContainer hiv" data-offset="2">MEET HIV</a></li>
+  <li><a href="/musicmixer" class="sigilContainer m" data-offset="2">MusicMixer</a></li>
 
-  <li><a href="/pizza" class="sigilContainer pizza" data-offset="3">PIZZA<br>INFOGRAPHIC</a></li>
+  <li><a href="/hiv" class="sigilContainer hiv" data-offset="3">MEET HIV</a></li>
 
- <li><a href="/traa" class="sigilContainer traa" data-offset="4">TRAA</a></li>
+  <li><a href="/pizza" class="sigilContainer pizza" data-offset="4">Pizza<br>Infographic</a></li>
 
- <li><a href="/anastasia" class="sigilContainer ana" data-offset="5">AESTHETIC<br>ANASTASIA</a></li>
+ <li><a href="/traa" class="sigilContainer traa" data-offset="5">TRAA</a></li>
 
- <li><a href="/mangochat" class="sigilContainer mango" data-offset="6">MANGOCHAT</a></li>
+ <li><a href="/anastasia" class="sigilContainer ana" data-offset="6">Aesthetic<br>Anastasia</a></li>
+
+ <li><a href="/mangochat" class="sigilContainer mango" data-offset="7">MangoChat</a></li>
 </section>
 
 <section class="screen">
@@ -26,6 +28,7 @@
  <section id="imageContainer">
 <div id="houseImages" style="right: 0;"> <!-- add in all of the images to make a scrolling "banner" -->
 	<img src="@/assets/roku.jpg" alt="">
+    <img src="@/assets/harry.jpg" alt="">
     <img src="@/assets/musicmixer.jpg" alt="">
     <img src="@/assets/hiv.jpg" alt="">
     <img src="@/assets/interactive.jpg" alt="">
@@ -90,6 +93,7 @@
 
 .bv-example-row li{
     margin-left: 10%;
+    width: 200%;
     margin-bottom: 10%;
     list-style-type: none;
     transform: rotate(-3deg);
@@ -97,12 +101,15 @@
 
 .bv-example-row{
     margin-left: 5%;
-    width: 30%;
+    line-height: 3.5rem;
+    width: 40%;
 }
 
 .bv-example-row a{
-    color: black;
-    text-shadow: 4px 4px #e8d7d5;
+    font-size: 2.5rem;
+    line-height: .2rem;
+    color: #0C0F33 ;
+    text-shadow: 4px 4px #DC9E82;
 }
 
 .bv-example-row a, a:visited {
@@ -117,7 +124,7 @@
   bottom: 0;
   left: 0;
   width: 0%;
-  background: black;
+  background: #DC9E82;
   transition: 0.6s;
 }
 
@@ -181,6 +188,7 @@ flex-direction: row;
 #houseImages img { float:left; }
 
 .bv-example-row li{
+    width: 80%;
     margin-left: 10%;
     margin-bottom: 10%;
     list-style-type: none;
@@ -188,13 +196,17 @@ flex-direction: row;
 }
 
 .bv-example-row{
-    margin-left: 5%;
-    width: 30%;
+    line-height: 7rem;
+    margin-left: 1%;
+    width: 50%;
 }
 
 .bv-example-row a{
-    color: black;
-    text-shadow: 4px 4px #e8d7d5;
+    font-size: 5rem;
+    color: #0C0F33 ;
+  font-family: 'raleway', sans-serif;
+    font-style: italic;
+    text-shadow: 4px 4px #DC9E82;
 }
 
 .bv-example-row a, a:visited {
@@ -209,7 +221,7 @@ flex-direction: row;
   bottom: 0;
   left: 0;
   width: 0%;
-  background: black;
+  background: #DC9E82;
   transition: 0.6s;
 }
 

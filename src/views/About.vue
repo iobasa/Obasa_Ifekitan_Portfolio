@@ -4,19 +4,17 @@
 
         
 
-        <b-row cols="1" cols-sm="1" cols-md="1" cols-lg="1">
+        <b-row cols="1" cols-sm="1" cols-md="1" cols-lg="2">
 
           <b-col>
+              <b-img class="about-round" src="@/assets/ife.jpg" fluid alt="Fluid image"></b-img>
+          </b-col>
+
+          <b-col class="aout">
             <h1 class="about">About Me</h1>
+            <p class="about-p">Hello! My name is Ifekitan Obasa, I am web-developer who likes to challenge herself and learn new things that can help improve my knowledge in code and things in general.<br><br> <b>PS. I love food.</b></p>
           </b-col>
 
-          <b-col>
-              <b-img center src="@/assets/ife.jpg" fluid alt="Fluid image"></b-img>
-          </b-col>
-
-          <b-col>
-               <p class="about-p">Hello! My name is Ifekitan Obasa, I am web-developer who likes to challenge herself and leanr new things that can help improve my knowledge in code and things in general.<br><br> PS. I love food.</p>
-          </b-col>
         </b-row>
        
     </div>
@@ -29,21 +27,62 @@
 </script>
 
 <style lang="scss" scoped>
+.about-round{
+  width: 85%;
+  margin: 10px;
+  border-radius: 5rem;
+  -moz-box-shadow: 10px 10px #151E3F;
+	-webkit-box-shadow: 10px 10px #151E3F;
+	box-shadow: 10px 10px #151E3F;
+}
 
 .about{
-  text-align: center;
-    font-size: 6rem;
-    font-weight: 700;
-    font-style: italic;
-    text-shadow: 4px 4px #e8d7d5;
+  color: #151E3F;
+
+  font-family: 'raleway', sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 1000;
+    text-shadow: 4px 4px #DC9E82;
 }
 
 .about-p{
-  font-size: 1.5rem;
-    font-weight: 700;
+  color:#3F3D54;
+  font-family: 'raleway', sans-serif;
+  font-size: 1.2rem;
+    font-weight: 600;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
 }
 
+@media screen and (min-width: 64em) {
+.about-round{
+  margin: 10px;
+  border-radius: 5rem;
+  -moz-box-shadow: 15px 15px #151E3F;
+	-webkit-box-shadow: 15px 15px #151E3F;
+	box-shadow: 15px 15px #151E3F;
+}
+
+.about{
+  color: #151E3F;
+  font-family: 'raleway', sans-serif;
+    text-align: center;
+    font-size: 6rem;
+    font-weight: 1000;
+    text-shadow: 4px 4px #DC9E82;
+}
+
+.aout{
+  padding: 30px;
+}
+
+.about-p{
+  color:#3F3D54;
+  font-family: 'raleway', sans-serif;
+  font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+}
+}
 
 </style>

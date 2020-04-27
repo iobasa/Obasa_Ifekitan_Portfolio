@@ -13,9 +13,9 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
 
-         <b-nav-item href="/about">ABOUT ME</b-nav-item>
-         <b-nav-item href="/skillset">SKILLSET</b-nav-item>
-         <b-nav-item href="/contact">CONTACT ME</b-nav-item>
+         <b-nav-item href="/about">About Me</b-nav-item>
+         <b-nav-item href="/skillset">Skillset</b-nav-item>
+         <b-nav-item href="/contact">Contact Me</b-nav-item>
 
 
       </b-navbar-nav>
@@ -40,7 +40,7 @@ background-color: transparent;
 }
 
 .nav-link a{
-    color: black;
+    color: #C16E70;
 }
 
     #logo img{
@@ -50,19 +50,16 @@ background-color: transparent;
     .header {
 	font-size: 20px;
     font-family: 'raleway', sans-serif;
-    font-style: italic;
     font-weight: 1000;
 
   }
   .header a {
-    color: black!important;
-    text-shadow: 2px 2px #e8d7d5;
-    font-size: 20px;
+    color: #C16E70!important;
+    font-size: 1.5rem;
     padding-right: 5px;
     text-decoration: none;
   }
   .header a:hover {
-    color: black!important;
-    text-shadow: 2px 2px #D76C6E;
+    color:  #0C0F33!important;
   }
 </style>
