@@ -7,6 +7,8 @@
     <b-col>
         <section class="hey">
     <h1>Contact Moi!!</h1>
+
+    <label>... or email me at <a href="mailto:ifeobasa16@gmail.com">ifeobasa16@gmail.com</a></label>
     </section>
     </b-col>
 
@@ -43,7 +45,7 @@
       placeholder="Say something..."
     ></b-form-textarea>
 
-    <b-button v-b-modal.modal-1 type="submit" value="Send" >Send</b-button>
+    <b-button @click="showMsgOk" type="submit" value="Send" >Send</b-button>
 
   <b-modal v-bind:hide-footer="true" id="modal-1" title="Hey There!">
     <p class="my-4">The message was sent! I'll get back to you as soon as I can!</p>
@@ -68,6 +70,7 @@ import emailjs from 'emailjs-com';
 
 export default {
   methods: {
+
     sendEmail: (e) => {
       emailjs.sendForm('ifeobasa16_gmail_com', 'portfolio_site', e.target, 'user_RWcchEy36xz38oiQ44sgb')
         .then((result) => {
@@ -75,7 +78,23 @@ export default {
         }, (error) => {
             console.log('FAILED...', error);
         });
-    }
+    },
+
+    showMsgOk() {
+        const h = this.$createElement
+        // Using HTML string
+
+        // More complex structure
+        const messageVNode = h('div', { class: ['foobar'] }, [
+          h('p', { class: ['text-center'] }, [
+            ' 🚀 Hey thanks for messaging me! 🔥🔥🔥 I will get back to you as soon as I can! 😉 ',
+          ])
+        ])
+        // We must pass the generated VNodes as arrays
+        this.$bvModal.msgBoxOk([messageVNode], {
+          centered: true, size: 'lg'
+        })
+      }
   }
 }
 </script>
@@ -83,13 +102,32 @@ export default {
 <style lang="scss" scoped>
 
 .hey h1{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     font-weight: 1000;
     font-family: 'raleway', sans-serif;
     font-style: italic;
     text-align: left;
     color: #0C0F33 ;
     text-shadow: 4px 4px #DC9E82;
+}
+
+ a{
+  color: #0C0F33;
+  font-family: 'raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+ a:hover{
+  color: #C16E70;
+  text-decoration: none;
+  font-family: 'raleway', sans-serif;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .btn{
@@ -122,7 +160,6 @@ label{
 }
 
 .form-control{
-    background-color: #F2F3D9;
     border: none;
     font-weight: 700;
     border-radius: 0px;
@@ -130,6 +167,26 @@ label{
 }
 
 @media screen and (min-width: 64em) {
+ a{
+  color: #0C0F33;
+  font-family: 'raleway', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+ a:hover{
+  color: #C16E70;
+  text-decoration: none;
+  font-family: 'raleway', sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
 .hey h1{
     font-size: 8rem;
     font-weight: 1000;
@@ -170,7 +227,6 @@ label{
 }
 
 .form-control{
-    background-color: #F2F3D9;
     border: none;
     font-weight: 700;
     border-radius: 0px;

@@ -4,7 +4,7 @@
 
         
 
-        <b-row cols="1" cols-sm="1" cols-md="1" cols-lg="2">
+        <b-row class="row-aa" cols="1" cols-sm="1" cols-md="1" cols-lg="2">
 
           <b-col>
               <b-img class="about-round" src="@/assets/ife.jpg" fluid alt="Fluid image"></b-img>
@@ -27,6 +27,10 @@
 </script>
 
 <style lang="scss" scoped>
+.row-aa{
+  margin-right: 0px;
+}
+
 .about-round{
   width: 85%;
   margin: 10px;

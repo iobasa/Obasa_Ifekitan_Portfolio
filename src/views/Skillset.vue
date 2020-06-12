@@ -2,9 +2,9 @@
     <div>
         <b-container>
 
-    <b-row cols="1" cols-sm="1" cols-md="1" cols-lg="2">
+    <b-row cols="1" cols-sm="1" cols-md="1" cols-lg="3">
         <b-col>
-            <h4>Skills</h4>
+            <h4>Knowledge</h4>
             <ul>
                 <li>Web Development</li>
                 <li>Front-End Development</li>
@@ -12,16 +12,27 @@
             </ul>
         </b-col>
         <b-col>
-            <h4 >Code</h4>
-            <ul class="code">
+            <h4 >Skills</h4>
+            <ul>
                 <li>HTML</li>
                 <li>CSS</li>
+                <li>SASS</li>
                 <li>JavaScript</li>
-                <li>VueJs</li>
+                <li>Vue.js</li>
+                <li>MySQL</li>
                 <li>PHP</li>
+                <li>Socket.io</li>
                 <li>Bootstrap</li>
-                <li>NodeJs</li>
-                <li>Express</li>
+                <li>Node.js</li>
+                <li>Express.js</li>
+            </ul>
+        </b-col>
+        <b-col>
+            <h4 >Tools</h4>
+            <ul class="code">
+                <li>GitHub</li>
+                <li>Wordpress</li>
+                <li>Shopify</li>
             </ul>
         </b-col>
         
