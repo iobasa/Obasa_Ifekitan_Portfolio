@@ -34,7 +34,7 @@
         ></b-form-input>
       </b-form-group>
 
-        <label for="textarea">Send me a message:</label>
+        <label for="textarea">Send  me a message:</label>
        <b-form-textarea
        label="Message:"
       id="textarea"
