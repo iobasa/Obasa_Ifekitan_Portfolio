@@ -16,6 +16,7 @@
         <section class={}>
   <b-form class="contact-form" @submit.prevent="sendEmail" >
 
+
       <b-form-group id="input-group" label="Your Name:" label-for="input-1">
         <b-form-input
           id="input-1"
