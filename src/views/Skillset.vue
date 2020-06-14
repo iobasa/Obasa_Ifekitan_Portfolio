@@ -21,7 +21,6 @@
                 <li>Vue.js</li>
                 <li>MySQL</li>
                 <li>PHP</li>
-                <li>Socket.io</li>
                 <li>Bootstrap</li>
                 <li>Node.js</li>
                 <li>Express.js</li>

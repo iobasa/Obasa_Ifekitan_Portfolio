@@ -14,12 +14,13 @@
 
     <b-col>
         <section class={}>
-  <b-form class="contact-form" @submit.prevent="sendEmail">
+  <b-form class="contact-form" @submit.prevent="sendEmail" >
 
       <b-form-group id="input-group" label="Your Name:" label-for="input-1">
         <b-form-input
           id="input-1"
           type="text"
+          v-model="form.name"
           name="user_name"
           required
           placeholder="What's your name?..."
@@ -30,9 +31,11 @@
         <b-form-input
           id="input-2"
           type="email"
+          v-model="form.email"
           name="user_email"
           required
-          placeholder="what's your email?..."
+          description="Please inclue an '@' in your email address"
+          placeholder="What's your email?..."
         ></b-form-input>
       </b-form-group>
 
@@ -40,20 +43,27 @@
        <b-form-textarea
        label="Message:"
       id="textarea"
+      v-model="form.message"
       name="message"
        rows="4"
+       required
       placeholder="Say something..."
     ></b-form-textarea>
 
-    <b-button @click="showMsgOk" type="submit" value="Send" >Send</b-button>
+    <b-button v-b-modal.modal-1  type="submit" value="Send">Send</b-button>
 
-  <b-modal v-bind:hide-footer="true" id="modal-1" title="Hey There!">
-    <p class="my-4">The message was sent! I'll get back to you as soon as I can!</p>
+  <b-modal v-bind:hide-footer="true" size="lg" id="modal-1" hide-header >
+    <button type="button" class="close" aria-label="Close" data-dismiss="modal" @click="resetForm(); $bvModal.hide('modal-1');">
+  <span aria-hidden="true">&times;</span>
+</button>
+
+<div class="d-block text-center">
+      <h3>Hello from the other siiiide!!</h3>
+    </div>
+    <p class="my-4">Sorry about that, lol... I'll get back to you as soon as I can thanks for messaging me!
+    </p>
+    <h2>😄😄😄</h2>
   </b-modal>
-
-  
-  
-
 
   </b-form>
   </section>
@@ -69,6 +79,17 @@
 import emailjs from 'emailjs-com';
 
 export default {
+
+  data() {
+    return {
+    form: {
+      name: null,
+      email: null,
+      message: null
+    },
+    }
+  },
+
   methods: {
 
     sendEmail: (e) => {
@@ -80,26 +101,51 @@ export default {
         });
     },
 
-    showMsgOk() {
-        const h = this.$createElement
-        // Using HTML string
-
-        // More complex structure
-        const messageVNode = h('div', { class: ['foobar'] }, [
-          h('p', { class: ['text-center'] }, [
-            ' 🚀 Hey thanks for messaging me! 🔥🔥🔥 I will get back to you as soon as I can! 😉 ',
-          ])
-        ])
-        // We must pass the generated VNodes as arrays
-        this.$bvModal.msgBoxOk([messageVNode], {
-          centered: true, size: 'lg'
-        })
+    resetForm() {
+      this.form = {
+        name: null,
+        email: null,
+        message: null
       }
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
+
+.close{
+  font-size: 3rem;
+  color: black ;
+    text-shadow: 4px 4px #DC9E82;
+    padding: 20px;
+}
+
+h2{
+  padding: 30px;
+    font-size: 4rem;
+    font-weight: 1000;
+    text-align: center;
+    text-shadow: none;
+  }
+
+h3{
+  padding: 30px;
+    font-size: 3.5rem;
+    font-weight: 1000;
+    text-align: center;
+    text-shadow: 4px 4px #e8d7d5;
+  }
+
+p{
+  padding: 20px;
+  font-size: 2rem;
+    font-weight: 700;
+    font-family: 'raleway', sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: #0C0F33 ;
+}
 
 .hey h1{
     font-size: 4.5rem;
