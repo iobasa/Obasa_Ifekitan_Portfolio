@@ -20,7 +20,7 @@
     "vue-router": "^3.3.4"
   },
   "devDependencies": {
-    "@babel/compat-data": "7.9.0",
+    "@babel/compat-data": "7.8.6",
     "@babel/polyfill": "^7.10.1",
     "@babel/preset-env": "^7.9.0",
     "@vue/cli-plugin-babel": "~4.2.0",
