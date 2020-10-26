@@ -10,7 +10,7 @@ new Vue({
   render: h => h(App)
 }).$mount('#app')
 
-console.log('fired!');
+// console.log('fired!');
 
 // variable stack -> get the shields / sigils first
 const sigils = document.querySelectorAll('.sigilContainer'),
@@ -23,7 +23,7 @@ function animateBanners() {
       multiplier = this.dataset.offset;
       // this is the dats offset custom data attribute
       // on each of the sigils
-  console.log((offset * multiplier) + "px");
+  // console.log((offset * multiplier) + "px");
 
   // move the banners to the left using the product of our math
   bannerImages.style.right = `${offset * multiplier + "px"}`;

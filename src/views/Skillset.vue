@@ -30,7 +30,6 @@
             <h4 >Tools</h4>
             <ul class="code">
                 <li>GitHub</li>
-                <li>Wordpress</li>
                 <li>Shopify</li>
             </ul>
         </b-col>
@@ -52,27 +51,26 @@ ul{
     padding:0;
 }
 .code{
-    margin-bottom: 120px;
+    margin-bottom: 40px;
 }
 h4{
+    padding-top: 20px;
     font-size: 3rem;
     font-style: italic;
     font-weight: 1000;
     color: #151E3F ;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     font-style: italic;
     text-align: center;
     text-shadow: 4px 4px  #DC9E82;
   }
 
   li{
-      font-size: 4rem;
     color:#3F3D54;
   font-family: 'raleway', sans-serif;
-    font-style: italic;
       list-style-type: none;
       font-size: 1.5rem;
       text-align: center;
-    font-weight: 700;
+    font-weight: 1000;
   }
 </style>

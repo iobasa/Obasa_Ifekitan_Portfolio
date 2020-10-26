@@ -27,7 +27,7 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
 
     <b-col>
       <section>
-        <h4>The basics: HTML and CSS</h4>
+        <h3>The basics: HTML and CSS</h3>
         <p>I was able to code a blog website using only HTML and CSS, some of photos were taken by me and I also designed the website. I tried to go for a more aesthetically pleasing website with a simple layout and basic design. Easy to navigate. </p>
       </section>
       
@@ -35,7 +35,7 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
 
      <b-col>
       <section>
-        <h4>What I used:</h4>
+        <h3>What I used:</h3>
         <p>HTML and CSS</p>
       </section>
       
@@ -53,10 +53,9 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
 
 <style lang="scss" scoped>
 
-     .title{
+      .title{
      font-size: 1rem;
     font-weight: 700;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   h1{
@@ -69,14 +68,14 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
   }
 
   h2{
-    
-    font-size: 2rem;
+    padding-top: 15px;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
+     margin-top: 30px;
     font-size: 2rem;
     font-weight: 1000;
     text-align: center;
@@ -84,11 +83,11 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -97,12 +96,13 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
   }
 
   p{
+    font-size: 1rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -111,7 +111,7 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
     border-bottom: 2px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -136,9 +136,9 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
   h2{
     
     font-size: 2.5rem;
+    padding-top: 15px;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
@@ -149,11 +149,10 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -162,21 +161,22 @@ The design must be an HTML5 fixed-width site utilizing CSS floats as the primary
   }
 
   p{
+    font-size: 1.3rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
 
   a:hover{
-    border-bottom: 2px solid #DC9E82 ;
+    border-bottom: 4px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }

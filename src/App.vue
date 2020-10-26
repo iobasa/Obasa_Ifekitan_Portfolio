@@ -62,7 +62,6 @@ export default {
     font-size: 2.5rem;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
@@ -74,10 +73,19 @@ export default {
 
   h4{
     font-size: 1.5rem;
-    font-style: italic;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
+  }
+
+  .navbar-light .navbar-toggler{
+    border-color: none;
+    border: none;
+  }
+
+  .navbar-toggler-icon{
+    width: 2.5em;
+    height: 2em;
   }
 
   p{
@@ -85,6 +93,5 @@ export default {
     font-weight: 500;
     text-align: left;
   }
-
 
 </style>

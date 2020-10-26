@@ -149,9 +149,10 @@ p{
 }
 
 .hey h1{
-    font-size: 4.5rem;
+    font-size: 5rem;
     font-weight: 1000;
-    font-family: 'raleway', sans-serif;
+    margin-bottom: 50px;
+    font-family: 'poppins', sans-serif;
     font-style: italic;
     text-align: left;
     color: #0C0F33 ;
@@ -160,28 +161,28 @@ p{
 
  a{
   color: #0C0F33;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     font-style: italic;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     font-style: italic;
 }
 
  a:hover{
   color: #C16E70;
   text-decoration: none;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     font-style: italic;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     font-style: italic;
 }
 
 .btn{
     margin-top: 5%;
     font-size: 1.7rem;
-    font-weight: 1000;
-    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
     border-radius: 10rem;
     background-color: #DC9E82;
     -moz-box-shadow: 5px 5px #151E3F;
@@ -191,18 +192,18 @@ p{
 
 label{
   color: #0C0F33;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     font-style: italic;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     font-style: italic;
 }
 
 #input-group{
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     color: #0C0F33;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     font-style: italic;
 }
 
@@ -213,31 +214,31 @@ label{
     color: #C16E70 ;
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 62em) {
  a{
   color: #0C0F33;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     font-style: italic;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     font-style: italic;
 }
 
  a:hover{
   color: #C16E70;
   text-decoration: none;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     font-style: italic;
     font-size: 2rem;
-    font-weight: 700;
+    font-weight: 600;
     font-style: italic;
 }
 
 
 .hey h1{
-    font-size: 8rem;
-    font-weight: 1000;
-    font-family: 'raleway', sans-serif;
+    font-size: 6rem;
+    font-weight: 800;
+    font-family: 'poppins', sans-serif;
     font-style: italic;
     text-align: left;
     color: #0C0F33 ;
@@ -247,8 +248,8 @@ label{
 .btn{
     margin-top: 5%;
     font-size: 1.7rem;
-    font-weight: 1000;
-    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-family: 'poppins', sans-serif;
     border-radius: 10rem;
     background-color: #DC9E82;
     -moz-box-shadow: 5px 5px #151E3F;
@@ -258,7 +259,7 @@ label{
 
 label{
   color: #0C0F33;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     font-style: italic;
     font-size: 2rem;
     font-weight: 700;
@@ -269,7 +270,7 @@ label{
     font-size: 2rem;
     font-weight: 700;
     color: #0C0F33;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     font-style: italic;
 }
 

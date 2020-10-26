@@ -32,7 +32,7 @@
 }
 
 .about-round{
-  width: 85%;
+  width: 95%;
   margin: 10px;
   border-radius: 5rem;
   -moz-box-shadow: 10px 10px #151E3F;
@@ -43,22 +43,22 @@
 .about{
   color: #151E3F;
 
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     text-align: center;
     font-size: 4rem;
-    font-weight: 1000;
+    font-weight: 700;
     text-shadow: 4px 4px #DC9E82;
 }
 
 .about-p{
   color:#3F3D54;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 1.2rem;
     font-weight: 600;
     text-align: center;
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 62em) {
 .about-round{
   margin: 10px;
   border-radius: 5rem;
@@ -69,10 +69,10 @@
 
 .about{
   color: #151E3F;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
     text-align: center;
-    font-size: 6rem;
-    font-weight: 1000;
+    font-size: 5rem;
+    font-weight: 700;
     text-shadow: 4px 4px #DC9E82;
 }
 
@@ -82,7 +82,7 @@
 
 .about-p{
   color:#3F3D54;
-  font-family: 'raleway', sans-serif;
+  font-family: 'poppins', sans-serif;
   font-size: 1.5rem;
     font-weight: 600;
     text-align: center;

@@ -52,7 +52,7 @@
      <b-col>
       <section>
         <h3>What I used:</h3>
-        <p>This website website was coded using HTML, CSS and Javascript for functionality, such as the gallery functionality and the Dropdown navigation. </p>
+        <p>This website was coded using HTML, CSS and Javascript for functionality, such as the gallery functionality and the Dropdown navigation. </p>
       </section>
       
     </b-col>
@@ -71,15 +71,14 @@
 
 <style lang="scss" scoped>
 
-     .title{
+      .title{
      font-size: 1rem;
     font-weight: 700;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   h1{
     color: #151E3F;
-    font-size: 3.3rem;
+    font-size: 3.5rem;
     font-weight: 1000;
     font-style: italic;
     text-align: center;
@@ -87,14 +86,14 @@
   }
 
   h2{
-    
-    font-size: 2rem;
+    padding-top: 15px;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
+     margin-top: 30px;
     font-size: 2rem;
     font-weight: 1000;
     text-align: center;
@@ -102,11 +101,11 @@
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -115,12 +114,13 @@
   }
 
   p{
+    font-size: 1rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -129,7 +129,7 @@
     border-bottom: 2px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -154,9 +154,9 @@
   h2{
     
     font-size: 2.5rem;
+    padding-top: 15px;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
@@ -167,11 +167,10 @@
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -180,21 +179,22 @@
   }
 
   p{
+    font-size: 1.3rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
 
   a:hover{
-    border-bottom: 2px solid #DC9E82 ;
+    border-bottom: 4px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }

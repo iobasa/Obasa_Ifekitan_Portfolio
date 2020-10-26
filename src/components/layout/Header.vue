@@ -13,9 +13,9 @@
       <!-- Right aligned nav items -->
       <b-navbar-nav class="ml-auto">
 
-         <b-nav-item href="/about">About Me</b-nav-item>
-         <b-nav-item href="/skillset">Skillset</b-nav-item>
-         <b-nav-item href="/contact">Contact Me</b-nav-item>
+         <b-nav-item href="/about">about me</b-nav-item>
+         <b-nav-item href="/skillset">skillset</b-nav-item>
+         <b-nav-item href="/contact">contact me</b-nav-item>
 
 
       </b-navbar-nav>

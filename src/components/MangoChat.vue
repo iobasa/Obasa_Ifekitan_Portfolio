@@ -30,7 +30,7 @@
 
     <b-col>
       <section>
-        <h4>A chatting application</h4>
+        <h3>A chatting application</h3>
         <p>Using socket.io and VueJs I was able to connect users to be able to chat with one another from anywhere. I designed the site with more functionality to make it look nicer. Try it yourself with a friend: <a href="https://ife-test-chatapp.herokuapp.com/">MangoChat</a> </p>
       </section>
       
@@ -38,8 +38,9 @@
 
      <b-col>
       <section>
-        <h4>What I used:</h4>
-        <p>HTML, CSS, SASS, VueJS, socket.io, NodeJS, Express</p>
+        <h3>What I used:</h3>
+        <p>This chatting application was made using HTML, SASS, VueJS, NodeJS, Express and socket.io.
+        </p>
       </section>
       
     </b-col>
@@ -56,15 +57,14 @@
 
 <style lang="scss" scoped>
 
-     .title{
+      .title{
      font-size: 1rem;
     font-weight: 700;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   h1{
     color: #151E3F;
-    font-size: 3.3rem;
+    font-size: 3.5rem;
     font-weight: 1000;
     font-style: italic;
     text-align: center;
@@ -72,14 +72,14 @@
   }
 
   h2{
-    
-    font-size: 2rem;
+    padding-top: 15px;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
+     margin-top: 30px;
     font-size: 2rem;
     font-weight: 1000;
     text-align: center;
@@ -87,11 +87,11 @@
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -100,12 +100,13 @@
   }
 
   p{
+    font-size: 1rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -114,7 +115,7 @@
     border-bottom: 2px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -139,9 +140,9 @@
   h2{
     
     font-size: 2.5rem;
+    padding-top: 15px;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
@@ -152,11 +153,10 @@
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -165,21 +165,22 @@
   }
 
   p{
+    font-size: 1.3rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
 
   a:hover{
-    border-bottom: 2px solid #DC9E82 ;
+    border-bottom: 4px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }

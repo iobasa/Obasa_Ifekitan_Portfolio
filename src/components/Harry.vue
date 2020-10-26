@@ -30,8 +30,8 @@
 
     <b-col>
       <section>
-        <h4>Developing the collections and my niche</h4>
-        <p>For my niche, I chose a samll wine company owned by friends. I designed the logo, the mockups and the pictures of the owners were stock photos.
+        <h3>Developing the collections and my niche</h3>
+        <p>For my niche, I chose a small wine company owned by friends. I designed the logo, the mockups and the pictures of the owners were stock photos.
           <br><br>
           Using liquid, a shopify template coding language, I was able to code sections and snippets which were used in the site.<br><br>
           For example, the summer promotion page was was coded in liquid, I used sections to include things like the promo boxes and the products!
@@ -45,7 +45,7 @@
      <b-col>
       <section>
         <h3>What I used:</h3>
-        <p>HTML, SASS and Liquid</p>
+        <p>This website was made using HTML, SASS and Liquid, Liquid is a language developed by Shopify for creating websites on the platform, It is similar to Javascript</p>
       </section>
       
     </b-col>
@@ -61,11 +61,9 @@
 </script>
 
 <style lang="scss" scoped>
-
      .title{
      font-size: 1rem;
     font-weight: 700;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   h1{
@@ -78,14 +76,14 @@
   }
 
   h2{
-    
-    font-size: 2rem;
+    padding-top: 15px;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
+     margin-top: 30px;
     font-size: 2rem;
     font-weight: 1000;
     text-align: center;
@@ -93,11 +91,11 @@
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -106,12 +104,13 @@
   }
 
   p{
+    font-size: 1rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -120,7 +119,7 @@
     border-bottom: 2px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -145,9 +144,9 @@
   h2{
     
     font-size: 2.5rem;
+    padding-top: 15px;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
@@ -158,11 +157,10 @@
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -171,21 +169,22 @@
   }
 
   p{
+    font-size: 1.3rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
 
   a:hover{
-    border-bottom: 2px solid #DC9E82 ;
+    border-bottom: 4px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }

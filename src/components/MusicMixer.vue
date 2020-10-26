@@ -29,7 +29,7 @@
     </b-col>
 
     <b-col>
-      <h4>How to Play</h4>
+      <h3>How to Play</h3>
       <p><br><br>Choose and icon from the eight below &amp; drag it onto the left panel<br><br>
 Music relating to the icon will start to play, and a fun illustration will pop onto the canvas<br><br>
 A maximum of 5 icons can be used at a time<br><br>
@@ -61,13 +61,13 @@ Watch the magic unfold and enjoy 🌈 🦄 🔮</p>
     </b-col>
 
     <b-col>
-      <p>The images were each given css transition properties to animate thema and make them move in a real life fashion and give the sea area a more believable look and feel</p>
+      <p>The images were each given css transition properties to animate them and make them move in a real life fashion and give the sea area a more believable look and feel</p>
     </b-col>
 
     <b-col>
       <section>
-        <h4>What I used:</h4>
-        <p>HTML, CSS, VanillaJS</p>
+        <h3>What I used:</h3>
+        <p>This musical Menagerie was made HTML, CSS and VanillaJS</p>
       </section>
       
     </b-col>
@@ -90,7 +90,6 @@ Watch the magic unfold and enjoy 🌈 🦄 🔮</p>
      .title{
      font-size: 1rem;
     font-weight: 700;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   h1{
@@ -103,14 +102,14 @@ Watch the magic unfold and enjoy 🌈 🦄 🔮</p>
   }
 
   h2{
-    
-    font-size: 2rem;
+    padding-top: 15px;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
+     margin-top: 30px;
     font-size: 2rem;
     font-weight: 1000;
     text-align: center;
@@ -118,11 +117,11 @@ Watch the magic unfold and enjoy 🌈 🦄 🔮</p>
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -131,12 +130,13 @@ Watch the magic unfold and enjoy 🌈 🦄 🔮</p>
   }
 
   p{
+    font-size: 1rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -145,7 +145,7 @@ Watch the magic unfold and enjoy 🌈 🦄 🔮</p>
     border-bottom: 2px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -170,9 +170,9 @@ Watch the magic unfold and enjoy 🌈 🦄 🔮</p>
   h2{
     
     font-size: 2.5rem;
+    padding-top: 15px;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
@@ -183,11 +183,10 @@ Watch the magic unfold and enjoy 🌈 🦄 🔮</p>
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -196,21 +195,22 @@ Watch the magic unfold and enjoy 🌈 🦄 🔮</p>
   }
 
   p{
+    font-size: 1.3rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
 
   a:hover{
-    border-bottom: 2px solid #DC9E82 ;
+    border-bottom: 4px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }

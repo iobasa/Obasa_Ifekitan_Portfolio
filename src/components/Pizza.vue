@@ -33,15 +33,15 @@ With the added feature of interactivity, information design can engage users in 
 
     <b-col>
       <section>
-        <h4>Dynamic Content and Interactivity</h4>
+        <h3>Dynamic Content and Interactivity</h3>
         <p>Using handlebars I was able to create dynamic content that connected to a database to retrieve information based on which icon is clicked, each of the icons have been given unique is used to call back to the database</p>
       </section>
       
     </b-col>
 
     <b-col>
-      <h4>What I used:</h4>
-        <p>HTML5, CSS3, SASS, Javascript, NodeJS and Express</p>
+      <h3>What I used:</h3>
+        <p>HTML5, SASS, Javascript, NodeJS and Express</p>
         </b-col>
 
         
@@ -56,8 +56,8 @@ With the added feature of interactivity, information design can engage users in 
     <b-col>
         <section class="sticky">
         <p>The infographic was made in illustrator.</p>
-    <p class="title">Designed and Illustrated by me</p>
-    <p class="title">Based of this <a href="https://www.quora.com/What-are-the-most-popular-pizza-toppings/answer/Brian-Roemmele">source</a></p>
+    <p >Designed and Illustrated by me</p>
+    <p >Based of this <a href="https://www.quora.com/What-are-the-most-popular-pizza-toppings/answer/Brian-Roemmele">source</a></p>
     </section>
     </b-col>
   </b-row>
@@ -90,16 +90,15 @@ With the added feature of interactivity, information design can engage users in 
         margin-top: 30px;
     }
 
-    
+ 
      .title{
      font-size: 1rem;
     font-weight: 700;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   h1{
     color: #151E3F;
-    font-size: 3.3rem;
+    font-size: 3.5rem;
     font-weight: 1000;
     font-style: italic;
     text-align: center;
@@ -107,14 +106,14 @@ With the added feature of interactivity, information design can engage users in 
   }
 
   h2{
-    
-    font-size: 2rem;
+    padding-top: 15px;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
+     margin-top: 30px;
     font-size: 2rem;
     font-weight: 1000;
     text-align: center;
@@ -122,11 +121,11 @@ With the added feature of interactivity, information design can engage users in 
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    margin-top: 30px;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -135,12 +134,13 @@ With the added feature of interactivity, information design can engage users in 
   }
 
   p{
+    font-size: 1rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -149,7 +149,7 @@ With the added feature of interactivity, information design can engage users in 
     border-bottom: 2px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
@@ -174,9 +174,9 @@ With the added feature of interactivity, information design can engage users in 
   h2{
     
     font-size: 2.5rem;
+    padding-top: 15px;
     font-weight: 800;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
    h3{
@@ -187,11 +187,10 @@ With the added feature of interactivity, information design can engage users in 
   }
 
   h4{
-    font-size: 2rem;
-    font-style: italic;
+    font-size: 1.5rem;
+    font-style: bold;
     font-weight: 1000;
     text-align: center;
-    text-shadow: 4px 4px #e8d7d5;
   }
 
   b{
@@ -200,21 +199,22 @@ With the added feature of interactivity, information design can engage users in 
   }
 
   p{
+    font-size: 1.3rem;
     color:#3F3D54;
   }
 
     a{
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
 
   a:hover{
-    border-bottom: 2px solid #DC9E82 ;
+    border-bottom: 4px solid #DC9E82 ;
     text-decoration: none;
     color: #0C0F33;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 800;
     text-align: left;
   }
