@@ -9,10 +9,10 @@
 <a href="https://www.linkedin.com/in/ife-obasa-567593191/">linkedIn</a>
 
 
-  <p  v-b-modal.modal-1>resume</p>
+  <p  v-b-modal.modal-2>resume</p>
 
-  <b-modal v-bind:hide-footer="true" size="lg" id="modal-1" hide-header >
-    <button type="button" class="close" aria-label="Close" data-dismiss="modal" @click="$bvModal.hide('modal-1');">
+  <b-modal v-bind:hide-footer="true" size="lg" id="modal-2" hide-header >
+    <button type="button" class="close" aria-label="Close" data-dismiss="modal" @click="$bvModal.hide('modal-2');">
   <span aria-hidden="true">&times;</span>
 </button>
 
